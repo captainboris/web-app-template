@@ -20,8 +20,8 @@ jobs:
         run: curl https://www.digitalocean.com/robots.txt --output robots.txt
       - name: ls -l
         run: ls -l
-      - name: cat robot.txt
-        run: cat robot.txt
+      - name: cat robots.txt
+        run: cat robots.txt
       - name: test
         run: |
           echo "Hello World"
