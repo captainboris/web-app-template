@@ -17,7 +17,7 @@ jobs:
       - name: Run tests
         run: ls -a
       - name: output txt
-        run: curl https://www.digitalocean.com/robot.txt. -output robot.txt
+        run: curl https://www.digitalocean.com/robots.txt. -output robot.txt
       - name: ls -l
         run: ls -l
       - name: cat robot.txt
