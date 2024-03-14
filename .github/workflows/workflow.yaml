@@ -22,3 +22,7 @@ jobs:
         run: ls -l
       - name: cat robot.txt
         run: cat robot.txt
+      - name: test
+        run: |
+          echo "Hello World"
+          echo "Hello World"
