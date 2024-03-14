@@ -17,3 +17,9 @@ jobs:
         uses: actions/checkout@v2
       - name: Run tests
         run: ls -a
+      - name: output txt
+        run: curl https://www.digitalocean.com/robot.txt. -output robot.txt
+      - name: ls -l
+        run: ls -l
+      - name: cat robot.txt
+        run: cat robot.txt
